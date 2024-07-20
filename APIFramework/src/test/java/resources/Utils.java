@@ -47,5 +47,9 @@ public class Utils {
 		JsonPath js = new JsonPath(stringResponse);
 		return js.get(key).toString();
 	}
+
+	public void helloGit(){
+		System.out.println("Hello Git!");
+	}
 	
 }
